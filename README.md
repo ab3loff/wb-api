@@ -35,6 +35,10 @@ docker exec -it wb php artisan key:generate
 Подключиться можно через MySQL Workbench
 
 
+Кстати, в исходном коде у вас была ошибка с Eloquent.
+
+На этот хостинг загружен проект, можно через него посмотреть данные по API, но только в браузере, т.к. бесплатный хост не дает просматривать через Postman
+https://wb-api.infinityfree.me
 
 
 
