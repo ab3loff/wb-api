@@ -12,8 +12,9 @@
 
 ```bash
 docker compose up -d --build
-docker exec -it app composer install
-docker exec -it app php artisan key:generate
+docker exec -it wb composer update
+создать .env
+docker exec -it wb php artisan key:generate
 
 ```
 
@@ -22,6 +23,8 @@ docker exec -it app php artisan key:generate
 #### Host: mysql-3caed0fc-abelon-b7da.e.aivencloud.com
 
 #### Port: 17861
+
+#### DB_NAME: defaultdb
 
 #### User: avnadmin
 
