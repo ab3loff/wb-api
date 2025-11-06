@@ -2,7 +2,7 @@
 
 ## Технологии
 
-- PHP 7.3 + Laravel 10
+- PHP 8.0 + Laravel 10
 - Docker & Docker Compose
 - MySQL 8
 -  Nginx
